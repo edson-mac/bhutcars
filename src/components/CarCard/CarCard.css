@@ -19,10 +19,12 @@
 
 .deleteLogo {
     width: 25px;
+    cursor: pointer;
 }
 
 .editLogo {
     width: 25px;
+    cursor: pointer;
 }
 
 .cardIcons {
