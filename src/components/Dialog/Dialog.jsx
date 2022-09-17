@@ -27,12 +27,12 @@ export default function FormDialog(props) {
   const { setCarList } = useProvider();
 
   const getCarsList = async () => {
-    const getList = await axios.get('http://api-test.bhut.com.br:3000/api/cars/')
+    const getList = await axios.get('http://api-test.bhut.com.br:3000/api/cars')
     setCarList(getList.data);
   }
 
   const handleEditCar = () => {
-    axios.put(`http://api-test.bhut.com.br:3000/api/cars/${props.id}/`, {
+    axios.put(`http://api-test.bhut.com.br:3000/api/cars/${props.id}`, {
       _id: editValues._id,
       title: editValues.title,
       brand: editValues.brand,

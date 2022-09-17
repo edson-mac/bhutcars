@@ -48,12 +48,12 @@ function CreateCar() {
     };
 
     const getCarsList = async () => {
-        const getList = await axios.get('http://api-test.bhut.com.br:3000/api/cars/')
+        const getList = await axios.get('http://api-test.bhut.com.br:3000/api/cars')
         setCarList(getList.data);
     }
 
     const handleClick = async () => {
-        await axios.post('http://api-test.bhut.com.br:3000/api/cars/', {
+        await axios.post('http://api-test.bhut.com.br:3000/api/cars', {
             _id: randomID(),
             title: car.title,
             brand: car.brand,

@@ -21,7 +21,7 @@ function CarCard({ title, brand, age, price, id }) {
     }
 
     const getCarsList = async () => {
-        const getList = await axios.get('http://api-test.bhut.com.br:3000/api/cars/')
+        const getList = await axios.get('http://api-test.bhut.com.br:3000/api/cars')
         setCarList(getList.data);
     }
 
