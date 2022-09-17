@@ -27,7 +27,7 @@ function CarCard({ title, brand, age, price, id }) {
 
     const handleDelete = () => {
         Swal.fire({
-            title: 'Tem certeza?',
+            title: 'Deseja deletar este carro?',
             text: "Não será possível reverter!",
             icon: 'warning',
             showCancelButton: true,
