@@ -38,24 +38,24 @@ Tecnologias usadas no projeto:
  - [x] Display de uma lista onde mostra as informações do carro.
 
 
- <strong>UPDATE</strong></summary><br />  <img src="editar1.png">
+ <strong>UPDATE</strong></summary><br />  <img src="images/editar1.png">
 
-<img src="editar2.png">
+<img src="images/editar2.png">
 
 - [x] Opção de editar todas as informações do carro e atualizar na API ao clicar no ícone de edição.
 
-<img src="editar3.png">
+<img src="images/editar3.png">
 
 - [x] Confirmação que a edição foi feita com sucesso.
 
 
-<strong>DELETE</strong></summary><br />  <img src="deletaricone.png">
+<strong>DELETE</strong></summary><br />  <img src="images/deletaricone.png">
 
-<img src="deletar1.png">
+<img src="images/deletar1.png">
 
 - [x] Opção de deletar o carro ao clicar no ícone de exclusão.
 
-<img src="deletar2.png">
+<img src="images/deletar2.png">
 
 - [x] Confirmação que o carro foi deletado com sucesso.
 
