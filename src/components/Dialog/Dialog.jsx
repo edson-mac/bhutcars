@@ -54,7 +54,6 @@ export default function FormDialog(props) {
       ...prevValues,
       [values.target.id]: values.target.value,
     }));
-    console.log(editValues);
   };
 
   const { carList } = useProvider();

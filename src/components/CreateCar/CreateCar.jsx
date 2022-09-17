@@ -38,7 +38,6 @@ function CreateCar() {
         let firstNumber = generateRandomNumber(12);
         let secondNumber = generateRandomNumber(12);
         let randomNumber = firstNumber + secondNumber
-        console.log(randomNumber.toString())
     }
 
     const handleChangeValues = (values) => {
@@ -76,9 +75,6 @@ function CreateCar() {
             timer: 2000,   
         })
     };
-
-    console.log(car)
-
 
     return (
         <div className="createCar">
