@@ -6,7 +6,7 @@ Este projeto tem como objetivo ser um CRUD para consumir [essa API](http://api-t
 
 Para rodar a aplicação localmente basta clonar o repositório e dentro da pasta executar os comandos "npm install" e "npm run dev".
 
-A versão online do projeto pode ser acessada atravéz deste [Deploy no Vercel](https://bhutcars.vercel.app/)
+A versão online do projeto pode ser acessada através deste [Deploy no Vercel](https://bhutcars.vercel.app/)
 
 IMPORTANTE: Dependendo de seu navegador é necessário desativar a proteção da aba para conseguir vizualizar o deploy completamente,
 tendo em vista que ele se alimenta de uma API HTTP.
