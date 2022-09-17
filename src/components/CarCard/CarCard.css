@@ -1,0 +1,33 @@
+.carCard {
+    width: 100vh;
+    max-height: 50px;
+    min-height: 10px;
+    box-shadow: 0 5px 8px 0 rgba(0.3, 0.3, 0.3, 0.5);
+    transition: 0.3s;
+    background-color: rgb(236, 236, 236);
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.carCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.deleteLogo {
+    width: 25px;
+}
+
+.editLogo {
+    width: 25px;
+}
+
+.cardIcons {
+    padding-top: 5.5px;
+    min-width: 70px;
+    display: flex;
+    justify-content: space-around;
+}

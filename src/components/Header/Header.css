@@ -1,0 +1,27 @@
+.header { 
+    background-color: #8f7474;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logosBox {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+
+}
+.carLogo {
+    height: 90%;
+    max-width: 100px;
+    width: 90%;
+    padding-left: 10px;
+
+}
+
+.bhutLogo {
+    max-width: 100px;
+    height: 90%;
+    width: 90%;
+}

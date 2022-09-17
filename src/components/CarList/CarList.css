@@ -1,0 +1,12 @@
+.carList {
+    display: flex;
+    flex-flow: row;
+    flex-flow: wrap;
+    row-gap: 10;
+    background-color: #8f7474;
+    justify-content: center;
+    max-width: 100%;
+    row-gap: 20px;
+    column-gap: 40px;
+    padding-top: 50px;
+}
